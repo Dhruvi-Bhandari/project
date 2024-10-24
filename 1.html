@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excess Food Management</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        
+        
+        <h1>Excess Food Management</h1>
+        <h2>Orphanages in Bangalore Needing Food</h2>
+
+        <!-- Orphanage boxes -->
+        <div class="orphanage-list" id="orphanageList"></div>
+
+        <!-- Orphanage details section -->
+        <div id="orphanageDetails" class="details hidden">
+            <h2 id="orphanageName"></h2>
+            <p><strong>Location:</strong> <span id="orphanageLocation"></span></p>
+            <p><strong>Needs:</strong> <span id="orphanageNeeds"></span></p>
+            
+            <h3>Donate Food</h3>
+            <form id="donationForm" action="tq.html" method="GET">
+                <label for="food">Food to Donate:</label>
+                <input type="text" id="food" required>
+                <button type="submit">Donate</button>
+            </form>
+
+            <button id="backButton">Back to Orphanage List</button>
+        </div>
+    </div>
+
+    <script src="1.js"></script>
+</body>
+</html>
